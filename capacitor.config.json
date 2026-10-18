@@ -1,0 +1,10 @@
+{
+  "appId": "app.justus.room",
+  "appName": "Just Us",
+  "webDir": "www",
+  "server": {
+    "url": "https://our-little-room.netlify.app",
+    "cleartext": false,
+    "allowNavigation": ["our-little-room.netlify.app"]
+  }
+}
