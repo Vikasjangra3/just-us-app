@@ -41,13 +41,13 @@ public class MainActivity extends BridgeActivity {
       runOnUiThread(new Runnable() {
         @Override
         public void run() {
-          setImmersive(on);
+          justUsHideBars(on);
         }
       });
     }
   }
 
-  private void setImmersive(boolean on) {
+  private void justUsHideBars(boolean on) {
     Window w = getWindow();
     if (Build.VERSION.SDK_INT >= 30) {
       WindowInsetsController c = w.getInsetsController();
